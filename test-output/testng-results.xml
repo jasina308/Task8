@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T03:33:08Z" name="Suite" finished-at="2023-11-15T03:33:21Z" duration-ms="12888">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T03:33:08Z" name="Chrome Test" finished-at="2023-11-15T03:33:21Z" duration-ms="12708">
+      <class name="testcases.TC001_SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC001_SignupTest@53045c6c]" started-at="2023-11-15T09:03:08Z" name="setup" finished-at="2023-11-15T09:03:08Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_SignupTest@53045c6c]" started-at="2023-11-15T09:03:09Z" name="browserLaunch" finished-at="2023-11-15T09:03:17Z" duration-ms="7498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="signupTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_SignupTest@53045c6c]" started-at="2023-11-15T09:03:17Z" name="signupTest" data-provider="NewData" finished-at="2023-11-15T09:03:20Z" duration-ms="3061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasina3222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC001_SignupTest@53045c6c]" started-at="2023-11-15T09:03:20Z" name="closeBrowser" finished-at="2023-11-15T09:03:21Z" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001_SignupTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-11-15T03:33:08Z" name="Edge Test" finished-at="2023-11-15T03:33:21Z" duration-ms="12887">
+      <class name="testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC002_LoginTest@7a35b0f5]" started-at="2023-11-15T09:03:08Z" name="setup" finished-at="2023-11-15T09:03:08Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_LoginTest@7a35b0f5]" started-at="2023-11-15T09:03:09Z" name="browserLaunch" finished-at="2023-11-15T09:03:18Z" duration-ms="8766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_LoginTest@7a35b0f5]" started-at="2023-11-15T09:03:18Z" name="loginTest" data-provider="NewData" finished-at="2023-11-15T09:03:20Z" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasina4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC002_LoginTest@7a35b0f5]" started-at="2023-11-15T09:03:20Z" name="closeBrowser" finished-at="2023-11-15T09:03:21Z" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC002_LoginTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>
