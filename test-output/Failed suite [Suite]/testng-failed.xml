@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.bestbuy.com/"/>
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="testcases.TC0014_SaveAnItem">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="saveAnItem"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.TC0014_SaveAnItem -->
+      <class name="testcases.TC008_AddAnItem">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="setup"/>
+          <include name="addItemToCart" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.TC008_AddAnItem -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

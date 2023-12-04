@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T17:41:39Z" name="Suite" finished-at="2023-12-04T17:42:51Z" duration-ms="72216">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T17:41:39Z" name="Chrome Test" finished-at="2023-12-04T17:42:13Z" duration-ms="33984">
+      <class name="testcases.TC0014_SaveAnItem">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC0014_SaveAnItem@33065d67]" started-at="2023-12-04T23:11:39Z" name="browserLaunch" finished-at="2023-12-04T23:11:50Z" duration-ms="10793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="saveAnItem()[pri:0, instance:testcases.TC0014_SaveAnItem@33065d67]" started-at="2023-12-04T23:11:50Z" name="saveAnItem" finished-at="2023-12-04T23:12:12Z" duration-ms="22760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAnItem -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC0014_SaveAnItem@33065d67]" started-at="2023-12-04T23:12:12Z" name="closeBrowser" finished-at="2023-12-04T23:12:13Z" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC0014_SaveAnItem -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-12-04T17:42:14Z" name="Edge Test" finished-at="2023-12-04T17:42:28Z" duration-ms="14220">
+      <class name="testcases.TC007_NavigationOfBottomLinks">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_NavigationOfBottomLinks@273444fe]" started-at="2023-12-04T23:12:14Z" name="browserLaunch" finished-at="2023-12-04T23:12:24Z" duration-ms="10078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[egde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="clickBottomLinks()[pri:0, instance:testcases.TC007_NavigationOfBottomLinks@273444fe]" started-at="2023-12-04T23:12:24Z" name="clickBottomLinks" finished-at="2023-12-04T23:12:27Z" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBottomLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_NavigationOfBottomLinks@273444fe]" started-at="2023-12-04T23:12:27Z" name="closeBrowser" finished-at="2023-12-04T23:12:28Z" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC007_NavigationOfBottomLinks -->
+    </test> <!-- Edge Test -->
+    <test started-at="2023-12-04T17:42:28Z" name="FireFox Test" finished-at="2023-12-04T17:42:51Z" duration-ms="23248">
+      <class name="testcases.TC009_ValidateBrokenLink">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_ValidateBrokenLink@402c4085]" started-at="2023-12-04T23:12:28Z" name="browserLaunch" finished-at="2023-12-04T23:12:38Z" duration-ms="10237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="brokenLink()[pri:0, instance:testcases.TC009_ValidateBrokenLink@402c4085]" started-at="2023-12-04T23:12:38Z" name="brokenLink" finished-at="2023-12-04T23:12:48Z" duration-ms="9518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC009_ValidateBrokenLink@402c4085]" started-at="2023-12-04T23:12:48Z" name="closeBrowser" finished-at="2023-12-04T23:12:51Z" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC009_ValidateBrokenLink -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
